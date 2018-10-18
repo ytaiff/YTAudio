@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57D8B0F02178354000ABD70C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D8B0EF2178354000ABD70C /* AppDelegate.m */; };
+		57D8B0F32178354000ABD70C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D8B0F22178354000ABD70C /* ViewController.m */; };
+		57D8B0F62178354000ABD70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D8B0F42178354000ABD70C /* Main.storyboard */; };
+		57D8B0F82178354100ABD70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D8B0F72178354100ABD70C /* Assets.xcassets */; };
+		57D8B0FB2178354100ABD70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D8B0F92178354100ABD70C /* LaunchScreen.storyboard */; };
+		57D8B0FE2178354100ABD70C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D8B0FD2178354100ABD70C /* main.m */; };
+		57D8B1082178354100ABD70C /* YTAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D8B1072178354100ABD70C /* YTAudioTests.m */; };
+		57D8B1132178354100ABD70C /* YTAudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D8B1122178354100ABD70C /* YTAudioUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D8B1042178354100ABD70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D8B0E32178354000ABD70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D8B0EA2178354000ABD70C;
+			remoteInfo = YTAudio;
+		};
+		57D8B10F2178354100ABD70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D8B0E32178354000ABD70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D8B0EA2178354000ABD70C;
+			remoteInfo = YTAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57D8B0EB2178354000ABD70C /* YTAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D8B0EE2178354000ABD70C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57D8B0EF2178354000ABD70C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57D8B0F12178354000ABD70C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57D8B0F22178354000ABD70C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57D8B0F52178354000ABD70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57D8B0F72178354100ABD70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57D8B0FA2178354100ABD70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57D8B0FC2178354100ABD70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D8B0FD2178354100ABD70C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57D8B1032178354100ABD70C /* YTAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D8B1072178354100ABD70C /* YTAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAudioTests.m; sourceTree = "<group>"; };
+		57D8B1092178354100ABD70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D8B10E2178354100ABD70C /* YTAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D8B1122178354100ABD70C /* YTAudioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAudioUITests.m; sourceTree = "<group>"; };
+		57D8B1142178354100ABD70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D8B0E82178354000ABD70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D8B1002178354100ABD70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D8B10B2178354100ABD70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D8B0E22178354000ABD70C = {
+			isa = PBXGroup;
+			children = (
+				57D8B0ED2178354000ABD70C /* YTAudio */,
+				57D8B1062178354100ABD70C /* YTAudioTests */,
+				57D8B1112178354100ABD70C /* YTAudioUITests */,
+				57D8B0EC2178354000ABD70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D8B0EC2178354000ABD70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D8B0EB2178354000ABD70C /* YTAudio.app */,
+				57D8B1032178354100ABD70C /* YTAudioTests.xctest */,
+				57D8B10E2178354100ABD70C /* YTAudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D8B0ED2178354000ABD70C /* YTAudio */ = {
+			isa = PBXGroup;
+			children = (
+				57D8B0EE2178354000ABD70C /* AppDelegate.h */,
+				57D8B0EF2178354000ABD70C /* AppDelegate.m */,
+				57D8B0F12178354000ABD70C /* ViewController.h */,
+				57D8B0F22178354000ABD70C /* ViewController.m */,
+				57D8B0F42178354000ABD70C /* Main.storyboard */,
+				57D8B0F72178354100ABD70C /* Assets.xcassets */,
+				57D8B0F92178354100ABD70C /* LaunchScreen.storyboard */,
+				57D8B0FC2178354100ABD70C /* Info.plist */,
+				57D8B0FD2178354100ABD70C /* main.m */,
+			);
+			path = YTAudio;
+			sourceTree = "<group>";
+		};
+		57D8B1062178354100ABD70C /* YTAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				57D8B1072178354100ABD70C /* YTAudioTests.m */,
+				57D8B1092178354100ABD70C /* Info.plist */,
+			);
+			path = YTAudioTests;
+			sourceTree = "<group>";
+		};
+		57D8B1112178354100ABD70C /* YTAudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57D8B1122178354100ABD70C /* YTAudioUITests.m */,
+				57D8B1142178354100ABD70C /* Info.plist */,
+			);
+			path = YTAudioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D8B0EA2178354000ABD70C /* YTAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D8B1172178354100ABD70C /* Build configuration list for PBXNativeTarget "YTAudio" */;
+			buildPhases = (
+				57D8B0E72178354000ABD70C /* Sources */,
+				57D8B0E82178354000ABD70C /* Frameworks */,
+				57D8B0E92178354000ABD70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTAudio;
+			productName = YTAudio;
+			productReference = 57D8B0EB2178354000ABD70C /* YTAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57D8B1022178354100ABD70C /* YTAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D8B11A2178354100ABD70C /* Build configuration list for PBXNativeTarget "YTAudioTests" */;
+			buildPhases = (
+				57D8B0FF2178354100ABD70C /* Sources */,
+				57D8B1002178354100ABD70C /* Frameworks */,
+				57D8B1012178354100ABD70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D8B1052178354100ABD70C /* PBXTargetDependency */,
+			);
+			name = YTAudioTests;
+			productName = YTAudioTests;
+			productReference = 57D8B1032178354100ABD70C /* YTAudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57D8B10D2178354100ABD70C /* YTAudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D8B11D2178354100ABD70C /* Build configuration list for PBXNativeTarget "YTAudioUITests" */;
+			buildPhases = (
+				57D8B10A2178354100ABD70C /* Sources */,
+				57D8B10B2178354100ABD70C /* Frameworks */,
+				57D8B10C2178354100ABD70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D8B1102178354100ABD70C /* PBXTargetDependency */,
+			);
+			name = YTAudioUITests;
+			productName = YTAudioUITests;
+			productReference = 57D8B10E2178354100ABD70C /* YTAudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D8B0E32178354000ABD70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = yangyuting;
+				TargetAttributes = {
+					57D8B0EA2178354000ABD70C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					57D8B1022178354100ABD70C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 57D8B0EA2178354000ABD70C;
+					};
+					57D8B10D2178354100ABD70C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 57D8B0EA2178354000ABD70C;
+					};
+				};
+			};
+			buildConfigurationList = 57D8B0E62178354000ABD70C /* Build configuration list for PBXProject "YTAudio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D8B0E22178354000ABD70C;
+			productRefGroup = 57D8B0EC2178354000ABD70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D8B0EA2178354000ABD70C /* YTAudio */,
+				57D8B1022178354100ABD70C /* YTAudioTests */,
+				57D8B10D2178354100ABD70C /* YTAudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D8B0E92178354000ABD70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D8B0FB2178354100ABD70C /* LaunchScreen.storyboard in Resources */,
+				57D8B0F82178354100ABD70C /* Assets.xcassets in Resources */,
+				57D8B0F62178354000ABD70C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D8B1012178354100ABD70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D8B10C2178354100ABD70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D8B0E72178354000ABD70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D8B0F32178354000ABD70C /* ViewController.m in Sources */,
+				57D8B0FE2178354100ABD70C /* main.m in Sources */,
+				57D8B0F02178354000ABD70C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D8B0FF2178354100ABD70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D8B1082178354100ABD70C /* YTAudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D8B10A2178354100ABD70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D8B1132178354100ABD70C /* YTAudioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D8B1052178354100ABD70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D8B0EA2178354000ABD70C /* YTAudio */;
+			targetProxy = 57D8B1042178354100ABD70C /* PBXContainerItemProxy */;
+		};
+		57D8B1102178354100ABD70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D8B0EA2178354000ABD70C /* YTAudio */;
+			targetProxy = 57D8B10F2178354100ABD70C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57D8B0F42178354000ABD70C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D8B0F52178354000ABD70C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57D8B0F92178354100ABD70C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D8B0FA2178354100ABD70C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D8B1152178354100ABD70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57D8B1162178354100ABD70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D8B1182178354100ABD70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9BHS9K8B2;
+				INFOPLIST_FILE = YTAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cy.jflm.YTAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57D8B1192178354100ABD70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9BHS9K8B2;
+				INFOPLIST_FILE = YTAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cy.jflm.YTAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57D8B11B2178354100ABD70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9BHS9K8B2;
+				INFOPLIST_FILE = YTAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cy.jflm.YTAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTAudio.app/YTAudio";
+			};
+			name = Debug;
+		};
+		57D8B11C2178354100ABD70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9BHS9K8B2;
+				INFOPLIST_FILE = YTAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cy.jflm.YTAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTAudio.app/YTAudio";
+			};
+			name = Release;
+		};
+		57D8B11E2178354100ABD70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9BHS9K8B2;
+				INFOPLIST_FILE = YTAudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cy.jflm.YTAudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTAudio;
+			};
+			name = Debug;
+		};
+		57D8B11F2178354100ABD70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9BHS9K8B2;
+				INFOPLIST_FILE = YTAudioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cy.jflm.YTAudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTAudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D8B0E62178354000ABD70C /* Build configuration list for PBXProject "YTAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D8B1152178354100ABD70C /* Debug */,
+				57D8B1162178354100ABD70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D8B1172178354100ABD70C /* Build configuration list for PBXNativeTarget "YTAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D8B1182178354100ABD70C /* Debug */,
+				57D8B1192178354100ABD70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D8B11A2178354100ABD70C /* Build configuration list for PBXNativeTarget "YTAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D8B11B2178354100ABD70C /* Debug */,
+				57D8B11C2178354100ABD70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D8B11D2178354100ABD70C /* Build configuration list for PBXNativeTarget "YTAudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D8B11E2178354100ABD70C /* Debug */,
+				57D8B11F2178354100ABD70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D8B0E32178354000ABD70C /* Project object */;
+}
